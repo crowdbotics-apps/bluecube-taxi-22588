@@ -43,9 +43,9 @@ urlpatterns = [
     path("wallet/", include("wallet.urls")),
 ]
 
-admin.site.site_header = "reward"
-admin.site.site_title = "reward Admin Portal"
-admin.site.index_title = "reward Admin"
+admin.site.site_header = "bluecube taxi"
+admin.site.site_title = "bluecube taxi Admin Portal"
+admin.site.index_title = "bluecube taxi Admin"
 
 # swagger
 api_info = openapi.Info(
